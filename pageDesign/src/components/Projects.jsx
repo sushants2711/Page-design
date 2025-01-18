@@ -13,6 +13,15 @@ const Projects = () => {
     ],
   },
   {
+    name: "Portfolio",
+    description: "A Mern-Stack Portfolio website .",
+    gradient: "bg-gradient-to-r from-black to-white",
+    links: [
+      { label: "Source Code", url: "https://github.com/sushants2711/Page-design" },
+      // { label: "Pic", url: "https://your-live-demo-link.com" },
+    ],
+  },
+  {
     name: "Music Player System",
     description: "A Django-powered music player with playlist and playback features.",
     gradient: "bg-gradient-to-r from-blue-600 to-green-500",
