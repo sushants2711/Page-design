@@ -11,8 +11,10 @@ dotenv.config();
 // app initialize
 const app = express();
 
-// frontend data parse
-app.use(cors())
+// to connect the frontend domain
+app.use(cors({
+    origin: 'https://page-design-frontend-o6jheuh1u-sushant-kumar-singhs-projects.vercel.app',
+  }));
 
 // port initialize
 const PORT = process.env.PORT || 5000 ;
