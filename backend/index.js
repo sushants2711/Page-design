@@ -13,8 +13,10 @@ const app = express();
 
 // to connect the frontend domain
 app.use(cors({
-    origin: 'https://portfolio-sushant-mern.vercel.app',
-  }));
+  origin: ['https://portfolio-sushant-mern.vercel.app'], /
+  methods: ['GET', 'POST', 'PUT', 'DELETE'], 
+  credentials: true,
+}));
 
 // port initialize
 const PORT = process.env.PORT || 5000 ;
