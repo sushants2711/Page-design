@@ -13,7 +13,7 @@ const app = express();
 
 // to connect the frontend domain
 app.use(cors({
-    origin: 'https://page-design-frontend-o6jheuh1u-sushant-kumar-singhs-projects.vercel.app',
+    origin: 'https://page-design-api.vercel.app/',
   }));
 
 // port initialize
