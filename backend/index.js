@@ -13,7 +13,7 @@ const app = express();
 
 // to connect the frontend domain
 app.use(cors({
-    origin: 'https://page-design-api.vercel.app/',
+    origin: 'https://page-design-api.vercel.app',
   }));
 
 // port initialize
