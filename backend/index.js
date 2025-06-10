@@ -16,6 +16,7 @@ app.use(cors({
   origin: 'https://portfolio-sushant-mern.vercel.app', 
   methods: ['GET', 'POST', 'PUT', 'DELETE'], 
   credentials: true,
+  allowedHeaders: ["Content-Type", "Authorization"]
 }));
 
 // port initialize
