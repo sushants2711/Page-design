@@ -39,7 +39,7 @@ const Contactus = () => {
     }
     
     try {
-      const url = "https://page-design-api.vercel.app/contact";
+      const url = "https://page-design.onrender.com/contact";
       const response = await fetch(url, {
         method: "POST",
         headers: {
