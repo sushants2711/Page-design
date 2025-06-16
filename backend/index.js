@@ -13,7 +13,7 @@ const app = express();
 
 // to connect the frontend domain
 app.use(cors({
-  origin: 'https://portfolio-sushant-mern.vercel.app', 
+  origin: 'https://sushant-kumar-singh-portfolio.onrender.com', 
   methods: ['GET', 'POST', 'PUT', 'DELETE'], 
   credentials: true,
   allowedHeaders: ["Content-Type", "Authorization"]
