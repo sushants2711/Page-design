@@ -13,13 +13,8 @@ const app = express();
 
 // to connect the frontend domain
 app.use(cors({
-<<<<<<< HEAD
   origin: 'https://portfolio-sushant-mern.vercel.app', 
   methods: ['GET', 'POST', 'PUT', 'DELETE'], 
-=======
-  origin: 'https://portfolio-sushant-mern.vercel.app',
-  methods: "GET,POST,PUT,DELETE",
->>>>>>> 4fd6cf3 (done)
   credentials: true,
   allowedHeaders: ["Content-Type", "Authorization"]
 }));
@@ -36,16 +31,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use("/contact", contactrouter)
 
 // server 
-<<<<<<< HEAD
 app.listen(PORT, ()=>{
     // database connection
     connectDb();
     console.log(`Server is started on http://localhost:${PORT}`)
 })
-=======
-app.listen(PORT, () => {
-  // database connection
-  connectDb();
-  console.log(`Server is started on http://localhost:${PORT}`)
-})
->>>>>>> 4fd6cf3 (done)
